@@ -9,46 +9,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header with Navigation -->
-    <header>
-        <div class="container nav-container">
-            <div class="logo">
-                <i class="fas fa-building"></i>
-                <span>SmartPropIndia</span>
-            </div>
-            
-            <button class="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
-            </button>
-            
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#">Home</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-                <li><a href="#map-section">Map</a></li>
-                <li class="contact-nav">
-                    <a href="#" id="contact-link">Contact</a>
-                    <div class="contact-form-container" id="contact-form">
-                        <form class="contact-form">
-                            <h3>Quick Contact</h3>
-                            <div class="form-group">
-                                <input type="text" placeholder="Your Name" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" placeholder="Your Email" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" placeholder="Your Phone">
-                            </div>
-                            <div class="form-group">
-                                <textarea placeholder="Your Message"></textarea>
-                            </div>
-                            <button type="submit" class="submit-btn">Send Message</button>
-                        </form>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </header>
+  <header>
+  <div class="container nav-container">
+    <div class="logo">
+      <i class="fas fa-building"></i>
+      <span>SmartPropIndia</span>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <button class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#map-section">Map</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
 
     <!-- Coming Soon Banner -->
     <div class="coming-soon">
@@ -146,7 +127,7 @@
     </section>
 
     <!-- Map Section -->
-    <section class="map-section">
+    <section class="map-section" id="map-section">
         <div class="container">
             <h2 class="section-title">Location</h2>
             <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">
